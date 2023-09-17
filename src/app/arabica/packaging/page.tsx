@@ -6,6 +6,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Link from 'next/link';
+import arricn from '../assets/whitehero.svg'
 
 const Packaging = () => {
     const handleDragStart = (e : React.SyntheticEvent) => e.preventDefault();
@@ -34,7 +35,10 @@ const Packaging = () => {
         <div className='flex flex-col justify-center h-[353px]'>
         <AliceCarousel autoPlay={true} disableButtonsControls={true} infinite={true}  autoPlayInterval={3000} mouseTracking items={items} autoWidth={true} disableDotsControls={true}  /> 
         </div>  
-                <div className="left-[16px] top-[371px] absolute text-white text-2xl font-bold font-['Poppins']">Packaging</div>
+        <a href='https://mumbai.polygonscan.com/tx/0x833f14b2f74d1b44bd15c35c7fe9365b8da99ff37103bff361f58eda144e9cdc' target="_blank">
+        <div className="left-[16px] top-[393px] absolute text-white text-sm font-light  leading-snug">Block Explorer</div>
+        <Image className="w-4 h-4 left-[114px] top-[394px] absolute" src={arricn} alt="Icon"/></a>
+                <div className="left-[16px] top-[360px] absolute text-white text-2xl font-bold font-['Poppins']">Packaging</div>
         <div className="left-[16px] top-[482px] absolute text-black text-base font-semibold font-['Poppins']">Product Code:</div>
         <div className="left-[16px] top-[444px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Specifications :</div>
         <div className="left-[168px] top-[483px] absolute text-neutral-600 text-sm font-normal font-['Poppins']">Arabica Washed 2023</div>
@@ -42,13 +46,25 @@ const Packaging = () => {
         
         <div className="left-[16px] top-[528px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Packaging Info:</div>
         <div className="w-[360px] left-[16px] top-[573px] absolute text-neutral-600 text-sm font-light font-['Poppins']">Single Serve Coffee Pouch</div>
-        <Link href="/arabica">   <div className="w-15 h-fit p-[5px] left-[343px] top-[32px] absolute bg-yellow-950 rounded-lg ">
+        <Link href="/arabica/roasting">
+    <div className="w-15 h-fit p-[8px] left-[16px] top-[32px] absolute bg-yellow-950 rounded-full">
+    <span className='text-white '>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+</svg>
+</span>
+    </div>
+    </Link>
+
+    <Link href="/arabica">
+    <div className="w-15 h-fit p-[8px] left-[343px] top-[710px] fixed bg-yellow-950 rounded-full ">
         <span className='text-white '>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
 </svg>
 </span>
-    </div> </Link>
+    </div>
+    </Link>
     </div>
      );
 }
