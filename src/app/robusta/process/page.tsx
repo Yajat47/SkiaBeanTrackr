@@ -13,12 +13,12 @@ const Process = () => {
 
     const items = [
         
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870585/n04wyvl3fzwjfuarhfdp.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'  />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870595/m49f17gwriljziqzqumd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'/>,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870616/x9mmlkogh7nsssvan09y.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575437/sfykyxhsxuhepr1capaf.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575912/h5i1axfkvertqf31mifi.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870585/n04wyvl3fzwjfuarhfdp.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={91}  />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870595/m49f17gwriljziqzqumd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={92}/>,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870616/x9mmlkogh7nsssvan09y.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={93} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={94} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575437/sfykyxhsxuhepr1capaf.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={95} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575912/h5i1axfkvertqf31mifi.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={96} />,
 
     ];
 

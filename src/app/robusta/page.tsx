@@ -85,7 +85,7 @@ const Robusta = () => {
     </div>
     <div className="w-[393px] h-[195px] left-0 top-0 absolute">
         <div className="w-[393px] h-[195px] left-0 top-0 absolute bg-yellow-950" />
-        <div className="w-[361px] left-[16px] top-[124px] absolute text-white text-[22px] font-normal  leading-[17px] ">Trace the taste :Track Your <br/><br/>Bean's Blockchain Path!</div>
+        <div className="w-[361px] left-[16px] top-[124px] absolute text-white text-[22px] font-normal  leading-[17px] ">Trace the taste :Track Your <br/><br/>Bean s Blockchain Path!</div>
         <div className="left-[15px] top-[70px] absolute text-center text-stone-50 text-3xl font-bold  leading-snug">Skiá Coffee</div>
     </div>
     <div className="w-[392px] h-[50px] absolute bg-white shadow">

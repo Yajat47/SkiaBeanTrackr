@@ -14,10 +14,9 @@ const Harvest = () => {
     // https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575941/ijjqmgc2ilddf4xltzmy.jpg
 
     const items = [
-        
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870289/nxxfxsmprbz0gei3wife.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'  />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870298/toomp6rfek0ww3i0qs4h.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'/>,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328758/ycgd8zijrmmlkukisu6s.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870289/nxxfxsmprbz0gei3wife.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={52}  />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870298/toomp6rfek0ww3i0qs4h.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={51}/>,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328758/ycgd8zijrmmlkukisu6s.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={53} />,
       ];
 
     return ( 
@@ -62,7 +61,7 @@ const Harvest = () => {
 </span>
     </div>
     </Link>
-    {/* <img className="w-[353px] h-[225px] left-[16px] top-[854px] absolute" src="https://via.placeholder.com/353x225" /> */}
+    {/* <Image className="w-[353px] h-[225px] left-[16px] top-[854px] absolute" src="https://via.placeholder.com/353x225" /> */}
     <Image className="w-360 h-270 left-[0px] top-[852px] absolute" src={weat} alt="Icon"/>
 
 </div>

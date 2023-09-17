@@ -13,20 +13,20 @@ const Packaging = () => {
 
     const items = [
         
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870585/n04wyvl3fzwjfuarhfdp.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'  />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870595/m49f17gwriljziqzqumd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'/>,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870616/x9mmlkogh7nsssvan09y.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575437/sfykyxhsxuhepr1capaf.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575912/h5i1axfkvertqf31mifi.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694329401/eqq5tlvuoztdrexwt7ru.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870833/vjush4ljkxsuaylrwv5t.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'  />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870840/ujo4n4f1twcbqdblh4d7.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'/>,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870845/xwcaqtmihqqqhddbdvk6.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870862/szpgih0beturf9rtungt.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870875/plnmk2taou3vbw3wjimd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
-          <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694576077/ogdmacxnihslhwwyippd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870585/n04wyvl3fzwjfuarhfdp.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={71}  />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870595/m49f17gwriljziqzqumd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={72}/>,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870616/x9mmlkogh7nsssvan09y.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={73} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={74} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575437/sfykyxhsxuhepr1capaf.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={75} />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575912/h5i1axfkvertqf31mifi.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={76} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694329401/eqq5tlvuoztdrexwt7ru.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={77} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694575393/sclh5pxon4ouxzaatsvm.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={78} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870833/vjush4ljkxsuaylrwv5t.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={79}  />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870840/ujo4n4f1twcbqdblh4d7.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={80}/>,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870845/xwcaqtmihqqqhddbdvk6.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={81} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870862/szpgih0beturf9rtungt.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={82} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694870875/plnmk2taou3vbw3wjimd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={83} />,
+          <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694576077/ogdmacxnihslhwwyippd.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={84} />,
     ];
     return ( 
         <div className="w-[393px] h-[900px] relative bg-neutral-100 font-heading">

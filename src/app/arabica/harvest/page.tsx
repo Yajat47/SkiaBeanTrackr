@@ -15,9 +15,9 @@ const Harvest = () => {
 
     const items = [
         
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1693105346/texbbldaeglzmzul771k.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'  />,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328788/r1zja499c1oatpyoccco.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]'/>,
-        <img src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328758/ycgd8zijrmmlkukisu6s.jpg" onDragStart={handleDragStart} role="presentation" className='h-[353px]' />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1693105346/texbbldaeglzmzul771k.jpg"  onDragStart={handleDragStart} role="presentation" className='h-[353px]' width={390} height={353} alt='' key={1}  />,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328788/r1zja499c1oatpyoccco.jpg" width={390} height={353} onDragStart={handleDragStart} role="presentation" className='h-[353px]'alt='' key={2}/>,
+        <Image src="https://res.cloudinary.com/dypp5dcp7/image/upload/v1694328758/ycgd8zijrmmlkukisu6s.jpg" width={390} height={353} onDragStart={handleDragStart} role="presentation" className='h-[353px]' alt='' key={3}/>,
       ];
 
     return ( 
