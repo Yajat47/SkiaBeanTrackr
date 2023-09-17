@@ -36,7 +36,7 @@ const Arabica = () => {
    <Link href="/arabica/process">   <div className="left-[98px] top-[572px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">14 Nov, 2022</div></Link>
    <Link href="/arabica/hulling">   <div className="left-[98px] top-[660px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">30 Aug, 2023</div></Link>
    <Link href="/arabica/roasting">   <div className="left-[98px] top-[748px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">9 Sep, 2023</div></Link>
-   <Link href="/arabica/packaging">   <div className="left-[98px] top-[836px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">21 Sep, 2023</div></Link>
+   <Link href="/arabica/packaging">   <div className="left-[98px] top-[836px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">16 Sep, 2023</div></Link>
    <Link href="/arabica/harvest"> <div className="w-12 h-12 left-[32px] top-[458px] absolute bg-green-50 rounded-[15px]" /></Link>
  <Image className="w-22 h-22 left-[45px] top-[471px] absolute" src={tesicon} alt="Icon"/>    
  <Link href="/arabica/process">   <div className="w-12 h-12 left-[32px] top-[546px] absolute bg-green-50 rounded-[15px]" /></Link>
@@ -66,7 +66,7 @@ const Arabica = () => {
         </div>
         <div className="w-[5px] h-[5px] left-[240px] top-[33px] absolute origin-top-left rotate-180 bg-orange-400 rounded-full" />
         <div className="left-[247px] top-[19px] absolute text-center text-orange-400 text-lg font-bold  leading-snug">Packaging</div>
-        <div className="left-[262px] top-[49px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">21 Sep, 2023</div>
+        <div className="left-[262px] top-[49px] absolute text-center text-neutral-400 text-sm font-medium  leading-snug">16 Sep, 2023</div>
         <div className="w-[13px] h-[13px] left-[16px] top-[102px] absolute bg-orange-400 rounded-full" />
         <div className="w-[57px] h-[1px] left-[31px] top-[109px] absolute bg-orange-400     "/>
         <div className="w-[13px] h-[13px] left-[90px] top-[102px] absolute bg-orange-400 rounded-full" />

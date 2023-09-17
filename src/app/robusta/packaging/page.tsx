@@ -39,10 +39,10 @@ const Packaging = () => {
         <div className="left-[16px] top-[482px] absolute text-black text-base font-semibold font-['Poppins']">Product Code:</div>
         <div className="left-[16px] top-[444px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Specifications :</div>
         <div className="left-[168px] top-[483px] absolute text-neutral-600 text-sm font-normal font-['Poppins']">Robusta Washed 2023</div>
-        <div className="left-[253px] top-[376px] absolute text-zinc-200 text-base font-medium font-['Poppins']">21st Sept 2023</div>
+        <div className="left-[253px] top-[376px] absolute text-zinc-200 text-base font-medium font-['Poppins']">16th Sept 2023</div>
         
         <div className="left-[16px] top-[528px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Packaging Info:</div>
-        <div className="w-[360px] left-[16px] top-[573px] absolute text-neutral-600 text-sm font-light font-['Poppins']">Material 1<br/>Loren Ipsum</div>
+        <div className="w-[360px] left-[16px] top-[573px] absolute text-neutral-600 text-sm font-light font-['Poppins']">Single Serve Coffee Pouch</div>
         <Link href="/robusta">   <div className="w-15 h-fit p-[5px] left-[343px] top-[32px] absolute bg-yellow-950 rounded-lg ">
         <span className='text-white '>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

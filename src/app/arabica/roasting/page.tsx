@@ -1,7 +1,7 @@
 
 'use client';
 
-import weat from '../assets/weat-raw.png'
+import weat from './assets/rc.jpg';
 import Image from 'next/image'
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
@@ -36,13 +36,14 @@ const Roasting = () => {
         </div>      
           <div className="left-[16px] top-[371px] absolute text-white text-2xl font-bold font-['Poppins']">Roasting</div>
         <div className="left-[16px] top-[482px] absolute text-black text-base font-semibold font-['Poppins']">Product Code:</div>
-        <div className="left-[16px] top-[514px] absolute text-black text-base font-semibold font-['Poppins']">Degassing Time</div>
+        <div className="left-[16px] top-[514px] absolute text-black text-base font-semibold font-['Poppins']">Degassing Time:</div>
         <div className="left-[16px] top-[444px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Specifications :</div>
         <div className="left-[168px] top-[483px] absolute text-neutral-600 text-sm font-normal font-['Poppins']">Arabica Washed 2023</div>
         <div className="left-[181px] top-[517px] absolute text-neutral-600 text-sm font-normal font-['Poppins']">10 Days</div>
         <div className="left-[253px] top-[376px] absolute text-zinc-200 text-base font-medium font-['Poppins']">9th Sept 2023</div>
         
         <div className="left-[16px] top-[560px] absolute text-yellow-950 text-xl font-bold font-['Poppins']">Roasting Curve:</div>
+        <div className="left-[185px] top-[565px] absolute text-yellow-950 text-sm font-light">(Illustration Only)</div>
         <Link href="/arabica/packaging">   <div className="w-15 h-fit p-[5px] left-[343px] top-[32px] absolute bg-yellow-950 rounded-lg ">
         <span className='text-white '>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
