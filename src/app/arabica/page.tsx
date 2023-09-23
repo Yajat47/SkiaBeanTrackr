@@ -9,8 +9,8 @@ import Link from 'next/link';
 
 const Arabica = () => {
     return ( 
-        <div className="w-[393px] h-[983px] relative bg-neutral-100 font-heading">
-  <div className="w-[393px] h-[983px] relative bg-neutral-100">
+        <div className="w-full h-[983px] relative bg-neutral-100 font-heading">
+  <div className="w-full h-[983px] relative bg-neutral-100">
 
    <Link href="/arabica/harvest"> <div className="w-[361px] h-20 left-[16px] top-[442px] absolute bg-white rounded-[20px] shadow" /> </Link>
    <Link href="/arabica/process">     <div className="w-[361px] h-20 left-[16px] top-[530px] absolute bg-white rounded-[20px] shadow" /> </Link>
@@ -59,7 +59,7 @@ const Arabica = () => {
     <div className="w-[22px] h-[22px] left-[45px] top-[647px] absolute" />
     <div className="w-[22px] h-[22px] left-[45px] top-[735px] absolute" />
     <div className="w-[22px] h-[22px] left-[45px] top-[823px] absolute" />
-    <div className="w-[361px] h-[140px] left-[16px] top-[232px] absolute">
+    <div className="w-[361px] h-[140px] left-[16px] top-[232px] absolute ">
         <div className="w-[361px] h-[140px] left-0 top-0 absolute bg-white rounded-[20px] shadow" />
         <Image className="w-8 h-8 left-[16px] top-[16px] absolute" src={bicon} alt="Icon"/>
         <div className="left-[53px] top-[19px] absolute text-center text-yellow-950 text-lg font-bold  leading-snug">Arabica 2023</div>
@@ -91,13 +91,13 @@ const Arabica = () => {
         <div className="w-[15px] h-[15px] left-[248px] top-[101px] absolute" /> */}
     </div>
 
-    <div className="w-[393px] h-[195px] left-0 top-0 absolute">
-        <div className="w-[393px] h-[195px] left-0 top-0 absolute bg-yellow-950" />
+    <div className="w-full h-[195px] left-0 top-0 absolute">
+        <div className="w-full h-[195px] left-0 top-0 absolute bg-yellow-950" />
         <div className="w-[361px] left-[16px] top-[135px] absolute text-white text-base font-normal  leading-[17px] ">Trace the taste :Track Your Beans Blockchain <br/> Path!</div>
         <div className="left-[16px] top-[86px] absolute text-center text-stone-50 text-[32px] font-bold  leading-snug">Skiá Bean Trackr</div>
         {/* <div className="text-center text-white text-[32px] font-bold  leading-snug">Skiá Bean Trackr</div> */}
     </div>
-    <div className="w-[392px] h-[50px] absolute bg-white shadow">
+    <div className="w-full h-[50px] absolute bg-white shadow">
     <Image className="w-12 h-8 left-[172px] top-[10px] absolute" src={skia} alt='Op' />
 </div>
 </div>
